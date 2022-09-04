@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(./img/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bar{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 1rem;
+    
+}
+
+.tabs{
+    margin: 8px 0;
+    border: 2px solid white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    width: 5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.selected{
+    border: 2px solid rgb(161, 143, 88)
+}
+
+h1{
+    font-family: "Sofia", sans-serif;
+    color: #f59e0b;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.titleDiv{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.txtDiv{
+    background-color: rgba(0, 0, 0, 0.559);
+    color: white;
+    font-size: 1.5rem;
+    padding: 5rem 20%;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.timesDiv{
+    font-size: 1.5rem;
+    text-align: center;
+}
