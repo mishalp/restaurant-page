@@ -1,3 +1,5 @@
+import { createHome } from "./home";
+
 function createNav(){
     let container = document.getElementById('nav')
     let bar = document.createElement('div');
@@ -26,9 +28,26 @@ function createNav(){
     container.appendChild(bar)
 }
 
+function createFooter(){
+    let container = document.getElementById('footer')
+    let bar = document.createElement('div');
+    bar.classList.add('bar');
+    bar.classList.add('footer');
+    let logo = document.createElement('img')
+
+    logo.setAttribute('src', './img/github.png');
+
+    let txt = document.createElement('p');
+
+    txt.innerHTML = "@mishalp";
+    bar.appendChild(logo);
+    bar.appendChild(txt);
+    container.appendChild(bar);
+}
+
 function clear(){
     let container = document.getElementById('main');
-    container.innerHTML = ""
+    container.innerHTML = "";
 }
 
 function loadMain(content, id){
@@ -42,35 +61,4 @@ function loadMain(content, id){
     }
 }
 
-function createHome(content){
-    let container = document.getElementById('main');
-    let title = document.createElement('h1');
-    let titleDiv = document.createElement('div')
-    titleDiv.classList.add('titleDiv')
-    title.innerHTML = content.title;
-
-    titleDiv.appendChild(title)
-    container.appendChild(titleDiv);
-
-    let txt = document.createElement('p');
-    let txtDiv = document.createElement('div');
-    txtDiv.classList.add('txtDiv');
-    txt.innerHTML = content.txt;
-
-    txtDiv.appendChild(txt);
-    container.appendChild(txtDiv);
-
-    let timesDiv = document.createElement('div');
-    timesDiv.classList.add('timesDiv');
-    let times = document.createElement('p');
-    times.innerHTML = `<h2>Hours</h2><br>Sunday: 8am - 8pm<br>Monday: 6am - 6pm<br>Tuesday: 6am - 6pm<br>Wednesday: 6am - 6pm
-        <br>Thursday: 6am - 10pm<br>
-        Friday: 6am - 10pm<br>
-        Saturday: 8am - 10pm`;
-    timesDiv.appendChild(times);
-
-    container.appendChild(timesDiv); 
-   
-}
-
-export { loadMain, createNav }
+export { loadMain, createNav, createFooter }

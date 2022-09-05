@@ -1,6 +1,14 @@
 let home = {
     title:"Restaurant Sweet Restaurant",
-    txt: "Beary's has the best porridge! The atmosphere and customer service make you feel like you are sitting in the middle of the woods, eating like a bear! This is exactly the kind of place that I like to return to again and again.",
+    txt: "We believe in the commitment to our community and in fostering long term relationships with local farmers and fishermen. Our menus reflect these connections, featuring local, seasonal produce and sustainably sourced seafood and meats",
+    time: {
+        title: 'Hours',
+        times: ['Sunday: 8am - 8pm','Monday: 6am - 6pm','Tuesday: 6am - 6pm','Wednesday: 6am - 6pm','Thursday: 6am - 10pm','Friday: 6am - 10pm','Saturday: 8am - 10pm'],
+    },
+    add:{
+        title: "Location",
+        txt: "123 Forest Drive, Forestville, Maine"
+    },
 
 }
 

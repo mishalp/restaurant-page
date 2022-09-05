@@ -1,11 +1,11 @@
-import { loadMain, createNav } from "./pageload";
+import { loadMain, createNav, createFooter } from "./pageload";
 import { home, menu, contact } from './data.js'
 
 
 let navs = ['home','menu','contact']
 createNav();
 loadMain(home, 'home');
-
+createFooter();
 
 let btns = document.querySelectorAll('.tabs');
 
