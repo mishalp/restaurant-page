@@ -69,7 +69,7 @@ h1{
     font-size: 1.5rem;
     padding: 5rem 15%;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 10rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -118,6 +118,7 @@ h1{
     width: 95%;
     padding: 1rem;
     gap: 15px;
+    padding-top: 9rem;
 }
 
 .card{
@@ -154,4 +155,38 @@ h1{
     color: white;
     font-size: 1.5rem;
     font-weight: bolder;   
+}
+
+.contact-div{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding-top: 5rem;
+}
+
+.contact-card{
+    background-color: rgba(0, 0, 0, 0.559);
+    padding: 1rem;
+    width: 30rem;
+}
+
+.contact-card > h2{
+    font-size: 3rem;
+    color: #f59e0b;
+    font-family: "Sofia", sans-serif;
+}
+
+.contact-card > .pos{
+    font-size: 2rem;
+    color: white;
+}
+
+.contact-card > *{
+    margin: 1rem;
+}
+
+.contact-card > .mobile, .contact-card > .mail{
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

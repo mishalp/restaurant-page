@@ -49,7 +49,27 @@ let menu = {
 }
 
 let contact = {
-    title: 'Contact Us'
+    title: 'Contact Us',
+    persons:[
+        {
+            name: "Jhone",
+            pos: "Chef",
+            mobile: "+1234567890",
+            mail: "jhone@jhone.com"
+        },
+        {
+            name: "Martin",
+            pos: "Chef",
+            mobile: "+1234567890",
+            mail: "Martin@Martin.com"
+        },
+        {
+            name: "Alex",
+            pos: "Chef",
+            mobile: "+1234567890",
+            mail: "Alex@Alex.com"
+        }
+    ]
 }
 
 export { home, menu, contact }
