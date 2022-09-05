@@ -1,4 +1,5 @@
 import { createHome } from "./home";
+import { createMenu } from "./menu";
 
 function createNav(){
     let container = document.getElementById('nav')
@@ -55,7 +56,7 @@ function loadMain(content, id){
     if(id == 'home'){
         createHome(content);
     }else if(id == 'menu'){
-       // createMenu(content);
+        createMenu(content);
     }else{
        // createContact(content);
     }

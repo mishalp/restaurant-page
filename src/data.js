@@ -13,7 +13,39 @@ let home = {
 }
 
 let menu = {
-    title: 'Menu items'
+    title: 'Menu Items',
+    items:[
+        {
+        name: "Burger",
+        discription: "This is a nice Burger to eat",
+        price: "$2",
+        path: './img/burger.jpg'
+        },
+        {
+            name: "Pizza",
+            discription: "This is a nice Pizza to eat",
+            price: "$3",
+            path: './img/pizza.jpg'
+        },
+        {
+            name: "Sandwich",
+            discription: "This is a nice Sandwich to eat",
+            price: "$2",
+            path: './img/sandwich.jpg'
+        },
+        {
+            name: "French Fries",
+            discription: "This is a nice French Fries to eat",
+            price: "$2",
+            path: './img/french.jpg'
+        },
+        {
+            name: "Spaghetti",
+            discription: "This is a nice Spaghetti to eat",
+            price: "$3",
+            path: './img/spaghetti.jpg'
+        }
+    ]
 }
 
 let contact = {
